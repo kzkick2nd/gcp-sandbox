@@ -2,4 +2,6 @@
 
         $ gcloud config set project PROJECT_ID
 
-        $ gcloud beta functions deploy HelloWorld --trigger-http  --runtime go111 --project PROJECT_NAME
+        $ gcloud beta functions deploy HelloWorld --trigger-http  --runtime go111 --project PROJECT_ID
+
+        $ gcloud beta functions describe FUNCTION --project PROJECT_ID
